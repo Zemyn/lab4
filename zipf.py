@@ -1,8 +1,8 @@
 import sys,getopt
 import math
 
+# test commend
 # the zipf destribution simulation
-# the mainline part
 def zipf():
 	opts,args = getopt.getopt(sys.argv[1:],"p:n:",["help"])
 
@@ -32,3 +32,4 @@ def zipf():
 
 if __name__ == '__main__':
     zipf()
+    printf("success!")
